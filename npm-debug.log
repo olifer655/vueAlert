@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'dev' ]
+2 info using npm@3.7.3
+3 info using node@v5.8.0
+4 verbose stack Error: EISDIR: illegal operation on a directory, read
+4 verbose stack     at Error (native)
+5 verbose cwd /Users/olifer/.Trash/vueAlert
+6 error Darwin 15.0.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "dev"
+8 error node v5.8.0
+9 error npm  v3.7.3
+10 error code EISDIR
+11 error errno -21
+12 error syscall read
+13 error eisdir EISDIR: illegal operation on a directory, read
+14 error eisdir This is most likely not a problem with npm itself
+14 error eisdir and is related to npm not being able to find a package.json in
+14 error eisdir a package you are trying to install.
+15 verbose exit [ -21, true ]
